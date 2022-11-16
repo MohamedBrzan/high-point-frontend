@@ -1,14 +1,13 @@
 import Spinner from 'react-bootstrap/Spinner';
+import './CustomSpinner.css';
 
 const CustomSpinner = () => {
   return (
-    <Spinner
-      animation='border'
-      role='status'
-      className='d-block bg-dark text-light my-3 m-auto'
-    >
-      <span className='visually-hidden'>Loading...</span>
-    </Spinner>
+    <div className='custom_spinner'>
+      <Spinner animation='border' role='status' className='icon'>
+        <span className='visually-hidden'>Loading...</span>
+      </Spinner>
+    </div>
   );
 };
 

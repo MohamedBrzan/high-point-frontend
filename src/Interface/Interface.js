@@ -25,24 +25,49 @@ import CustomSpinner from '../utils/CustomSpinner/CustomSpinner';
 import PageTitle from '../utils/PageTitle';
 
 const Interface = () => {
-  const { data: allInterfaces, refetch } = useGetAllInterfacesQuery();
+  const {
+    data: allInterfaces,
+    refetch,
+    isFetching,
+  } = useGetAllInterfacesQuery();
   const { user } = useSelector((state) => state.user);
   const isAdmin = user && user.isAdmin && user.isAdmin === true;
-  const { data: interfaceData, refetch: refetchInterface } =
-    useGetInterfaceByIdQuery(
-      allInterfaces && allInterfaces[0] && allInterfaces[0]._id
-        ? allInterfaces[0]._id
-        : ''
-    );
+  const {
+    data: interfaceData,
+    isFetching: interfaceIsSuccess,
+    refetch: refetchInterface,
+  } = useGetInterfaceByIdQuery(
+    allInterfaces && allInterfaces[0] && allInterfaces[0]._id
+      ? allInterfaces[0]._id
+      : ''
+  );
 
-  const { data: allServices, isLoading } = useGetAllServicesQuery();
-  const { data: service, isLoading: serviceIsLoading } = useGetServiceByIdQuery(
+  const {
+    data: allServices,
+    isFetching: servicesIsSuccess,
+    isLoading,
+  } = useGetAllServicesQuery();
+  const {
+    data: service,
+    isFetching: serviceIsSuccess,
+    isLoading: serviceIsLoading,
+  } = useGetServiceByIdQuery(
     allServices && allServices[0] && allServices[0]._id
       ? allServices[0]._id
       : ''
   );
 
   useEffect(() => {
+    if (
+      isFetching ||
+      interfaceIsSuccess ||
+      servicesIsSuccess ||
+      serviceIsSuccess
+    ) {
+      const runSpinner = setInterval(() => <CustomSpinner />, 10);
+      setTimeout(() => clearInterval(runSpinner), 10000);
+    }
+
     window.onscroll = () => {
       if (
         interfaceData &&
@@ -305,9 +330,16 @@ const Interface = () => {
         CleanAnimation(newsRoomNumberText);
       }
     };
-  }, [interfaceData, service]);
+  }, [
+    interfaceData,
+    interfaceIsSuccess,
+    isFetching,
+    service,
+    serviceIsSuccess,
+    servicesIsSuccess,
+  ]);
 
-  if (isLoading) return <CustomSpinner />;
+  if (isLoading || isFetching) return <CustomSpinner />;
 
   return interfaceData && interfaceData._id ? (
     <section className='interface'>

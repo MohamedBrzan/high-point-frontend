@@ -10,8 +10,6 @@ import { Provider } from 'react-redux';
 import store from './store/store';
 import './I18n/I18n';
 import CustomSpinner from './utils/CustomSpinner/CustomSpinner';
-import { GoogleOAuthProvider } from '@react-oauth/google';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Suspense fallback={<CustomSpinner />}>
@@ -19,9 +17,7 @@ root.render(
       <HelmetProvider>
         <BrowserRouter>
           <Provider store={store}>
-            {/* <GoogleOAuthProvider clientId='314628851838-i3too5br9jj9mnpa0kpin211g2uij8pn.apps.googleusercontent.com'> */}
             <App />
-            {/* </GoogleOAuthProvider> */}
           </Provider>
         </BrowserRouter>
       </HelmetProvider>
