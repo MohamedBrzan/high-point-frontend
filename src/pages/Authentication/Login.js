@@ -19,7 +19,7 @@ import {
   useGoogleLoginUserMutation,
   useLoginUserMutation,
 } from '../../store/apis/User/User';
-// import GoogleLoginButton from './GoogleLoginButton';
+import GoogleLoginButton from './GoogleLoginButton';
 import PageTitle from '../../utils/PageTitle';
 
 const LoginPage = () => {
@@ -112,9 +112,9 @@ const LoginPage = () => {
               </Button>
               <p className='text-center my-3'>{t('or_text')}</p>
 
-              {/* <GoogleLoginButton
+              <GoogleLoginButton
               // googleLogin={googleLogin}
-              /> */}
+              />
 
               <Row>
                 {' '}
