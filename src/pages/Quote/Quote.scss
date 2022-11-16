@@ -1,0 +1,221 @@
+.section-head-image {
+  background: url(../../images/section_head_background.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  width: 100vw;
+}
+
+.quote_form {
+  min-height: 100vh;
+  width: auto;
+  background: #0a0254;
+  color: white;
+  word-break: break-all;
+  padding: 0;
+  position: relative;
+  overflow-y: hidden;
+  .quote_row {
+    margin: 0;
+    .QA {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .create_btn {
+        left: 2em !important;
+      }
+      .QA_values {
+        width: 100%;
+        .actions {
+          display: flex;
+          justify-content: space-evenly;
+          .delete_btn {
+            color: red;
+            cursor: pointer;
+          }
+          .edit_btn {
+            color: greenyellow;
+            cursor: pointer;
+          }
+        }
+        .question {
+          cursor: pointer;
+          display: flex;
+          justify-content: space-between;
+          border-bottom: 0.3em solid white;
+          padding: 1em;
+          .icon {
+            transition: all 0.5s linear;
+          }
+        }
+        .answer {
+          transition: all 0.1s ease-in-out;
+          overflow: hidden;
+          background: #2b028d;
+          color: white;
+          height: 0;
+          &.active {
+            padding: 1em;
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  .form_section {
+    overflow-y: hidden;
+    padding: 3em;
+    margin: 2em auto;
+    position: relative;
+
+    @media screen and (max-width: 991px) {
+      width: auto;
+      margin: 1em;
+    }
+    background: #2b028d;
+    border-radius: 0.3em;
+
+    .title {
+      font: {
+        weight: 500;
+        size: 3em;
+      }
+      @media screen and (max-width: 991px) {
+        font: {
+          weight: 500;
+          size: 2em;
+        }
+      }
+    }
+    .sub_title {
+      display: flex;
+      align-items: center;
+      margin-right: auto;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      width: 75%;
+
+      @media screen and (max-width: 991px) {
+        width: auto;
+        font: {
+          size: 0.8em;
+        }
+      }
+      .arrow_container {
+        width: 3em;
+        margin-right: 1em;
+        .arrow_img {
+          width: 100%;
+        }
+      }
+    }
+    .quote__form-control {
+      margin-bottom: 1em;
+      background: #0a0254;
+      border-color: blue;
+      border-width: 0.18em;
+      color: #696493;
+      position: relative;
+    }
+
+    .custom_select_form {
+      margin-bottom: 1em;
+      position: relative;
+      width: 100%;
+      .create_btn {
+        position: absolute;
+      }
+      .selected_value {
+        position: relative;
+        background: #0a0254;
+        color: aliceblue;
+        width: 100%;
+        min-height: 2.6em;
+        padding: 1em;
+        font: {
+          weight: 500;
+        }
+        cursor: pointer;
+        .icon {
+          color: red;
+          position: absolute;
+          right: 0;
+          top: calc(50% - 0.8em);
+          margin: auto 0.7em;
+        }
+      }
+      .values {
+        position: absolute;
+        background: aliceblue;
+        color: #0a0254;
+        width: 100%;
+        max-height: 15rem;
+        border-radius: 0.3em;
+        margin-top: 0.5em;
+        overflow: scroll;
+        z-index: 99;
+        .value {
+          position: relative;
+          .actions {
+            top: 0;
+            right: 0;
+            position: absolute;
+          }
+          padding: 1em;
+          cursor: pointer;
+          &:hover {
+            background: #0a0254;
+            color: aliceblue;
+          }
+        }
+      }
+    }
+    .quote__submit-btn {
+      background: transparent;
+      border: none !important;
+      outline: none !important;
+    }
+    .rule {
+      user-select: none;
+      margin: 1em auto;
+      display: flex;
+      .check_box {
+        cursor: pointer;
+        width: 1.8em;
+        height: 1.8em;
+        @media screen and (max-width: 991px) {
+          width: 1em;
+          height: 1em;
+          padding: 0.4em;
+        }
+        background: #0a0254;
+        border: 0.3em solid #0a0254;
+        margin: auto 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.7em;
+        .check_icon {
+          color: red;
+        }
+      }
+      .rule_text {
+        @media screen and (max-width: 991px) {
+          font-size: 0.5em;
+        }
+      }
+    }
+  }
+  .create_btn {
+    color: greenyellow;
+    cursor: pointer;
+  }
+}
+.update_btn {
+  color: greenyellow;
+}
+.delete_btn {
+  color: red;
+}

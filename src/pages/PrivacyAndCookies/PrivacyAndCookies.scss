@@ -1,0 +1,46 @@
+.policy {
+  background: #fff;
+  min-height: 100vh;
+  overflow-x: hidden;
+  padding-top: 8rem;
+  position: relative;
+  .create_btn,
+  .edit_btn {
+    margin: 4em;
+    cursor: pointer;
+    color: greenyellow;
+  }
+  .policy_arrow {
+    width: 6em;
+    padding: 1em;
+  }
+  .policy_title {
+    font: {
+      weight: 500;
+      size: 4em;
+    }
+
+    width: 50%;
+    margin: auto;
+  }
+  .date {
+    padding: 1em;
+    font: {
+      weight: Bold;
+      size: 0.8em;
+    }
+    text-transform: uppercase;
+  }
+  .policy_description {
+    width: 50%;
+    margin: auto;
+    padding: 2em 0;
+  }
+  .top_text {
+    font: {
+      weight: Bold;
+      size: 0.8em;
+    }
+    opacity: 0.6;
+  }
+}

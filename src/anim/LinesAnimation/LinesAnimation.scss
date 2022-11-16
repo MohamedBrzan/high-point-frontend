@@ -1,0 +1,109 @@
+.lines-animation.lines-wrapper {
+  margin: auto;
+  width: 200px !important;
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: rotate(25deg);
+  overflow: hidden !important;
+  .lines-group {
+    &.one {
+      transform: translateX(20px);
+    }
+    &.two {
+      transform: translateX(-20px);
+    }
+    .line {
+      transition: all 0.5s ease-in-out;
+      position: relative;
+      background-color: #4158d0;
+      background-image: linear-gradient(
+        43deg,
+        #4158d0 0%,
+        #c850c0 46%,
+        #ffcc70 100%
+      );
+
+      width: 2px;
+      &:first-child {
+        height: 230px;
+      }
+      &:nth-child(2) {
+        height: 280px;
+      }
+      &:nth-child(3) {
+        height: 300px;
+      }
+      &:last-child {
+        height: 230px;
+      }
+    }
+  }
+  .line-dashed {
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    background-image: linear-gradient(
+      43deg,
+      #4158d0 0%,
+      #c850c0 46%,
+      #ffcc70 100%
+    );
+    height: 430px;
+    width: 2px;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: #c850c0;
+    transform: translateY(0%);
+    margin: auto;
+    animation: changingLineDisplay 1s infinite ease-in-out;
+  }
+  .line-dashed-small {
+    transform: translateY(187%);
+    width: 2px;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: #c850c0;
+    height: 230px;
+  }
+  @media screen and (max-width: 992px) {
+    display: none;
+  }
+}
+
+@keyframes changingLinesOneTranslate {
+  from {
+    transform: translateX(20px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes changingLinesTwoTranslate {
+  from {
+    transform: translateX(-20px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes changingLineDisplay {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-3%);
+  }
+}
+
+@keyframes changingLineSmallTranslate {
+  from {
+    transform: translateY(187%);
+  }
+  to {
+    transform: translateY(-187%);
+  }
+}

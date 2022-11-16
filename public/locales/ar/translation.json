@@ -1,0 +1,385 @@
+{
+  "header": {
+    "home": "الرئيسية",
+    "services": "الخدمات",
+    "solutions": "الحلول",
+    "products": "المنتجات",
+    "contact_us": "تواصل معنا",
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "register": "الإشتراك الأن"
+  },
+  "hpt_page": {
+    "header_text": {
+      "first_text": "{{ar}}",
+      "second_text": "{{ar}}",
+      "third_text": "{{ar}}",
+      "fourth_text": "{{ar}}",
+      "fifth_text": "{{ar}}",
+      "sixth_text": "{{ar}}",
+      "seventh_text": "{{ar}}"
+    },
+
+    "intro_text": "{{ar}}",
+    "title": {
+      "first_text": "{{ar}}",
+      "last_text": "{{ar}}"
+    },
+    "sub_title": {
+      "first_text": "{{ar}}",
+      "last_text": "{{ar}}"
+    },
+    "card": {
+      "title": "{{ar}}",
+      "description": "{{ar}}",
+      "delete_btn": "{{ar}}",
+      "edit_btn": "{{ar}}",
+      "tab": {
+        "title": "{{ar}}",
+        "solution": {
+          "title": "{{ar}}",
+          "description": "{{ar}}"
+        }
+      }
+    },
+    "blogs_page": {
+      "title": "المدونات",
+      "blog": {
+        "title": "{{ar}}"
+      }
+    },
+    "view_blog_page": {
+      "title": "المدونات",
+      "blog": {
+        "title": "{{ar}}",
+        "sub_description": "{{ar}}",
+        "description": "{{ar}}"
+      }
+    },
+    "news_room_page": {
+      "title": "غرفة الأخبار",
+      "news": {
+        "title": "{{ar}}"
+      }
+    },
+    "view_news_room_page": {
+      "title": "غرفة الأخبار",
+      "news": {
+        "title": "{{ar}}",
+        "sub_description": "{{ar}}",
+        "description": "{{ar}}"
+      }
+    },
+    "partners_page": {
+      "title": "إبحث عن شريك محلى"
+    },
+    "documentation_page": {
+      "title": "توثيق"
+    },
+    "contact_us_page": {
+      "title": "إبقى على تواصل معنا",
+      "name": "الإســـــم",
+      "email": "الأيميل",
+      "phone_or_whats_app": "رقم الهاتف أو الواتس أب",
+      "company": "الشركة",
+      "country": "الدولة",
+      "number_of_network": "عدد مستخدمي الشبكة",
+      "network_traffic": "حركة مرور الشبكة في ساعة الذروة",
+      "network_type": "نوع الشبكة",
+      "message": "أخبرنا عن احتياجاتك",
+      "send_message_btn": "أرسل رسالة",
+      "head_office": "المكتب الرئيسي",
+      "work_inquiries": "استفسارات العمل",
+      "other_branches": "الفروع الأخرى",
+      "phone": "الهاتف",
+      "tel": "الهاتف",
+      "fax": "الفاكس",
+      "info": "{{ar}}"
+    },
+    "product_page": {
+      "title": "{{ar}}",
+      "sub_title": "{{ar}}",
+      "desc_text": "{{ar}}",
+      "header_text": "{{ar}}",
+      "download_btn": "{{ar}}",
+      "footer_text": "{{ar}}",
+      "item": {
+        "title": "{{ar}}",
+        "description": "{{ar}}"
+      }
+    },
+    "about_page": {
+      "title": "{{ar}}",
+      "sub_title": "{{ar}}",
+      "description": "{{ar}}"
+    },
+    "footer_text": {
+      "first_text": "{{ar}}",
+      "last_text": "{{ar}}"
+    },
+    "apply_job_page": {
+      "title": "{{ar}}",
+      "sub_title": "{{ar}}",
+      "rule": "{{ar}}",
+      "name": "الإســـــم",
+      "email": "البريد الإلكترونـــــى",
+      "phone": "الهاتف",
+      "message": "الرسالة أو السيرة الذاتية",
+      "attach_file": "إختر الرسالة أو السيرة الذاتية",
+      "file_rule": "إمتداد الملف يجب أن يكون : doc, docx, pdf, rtf (up to 10 mb)",
+      "send_message_btn": "إرسال الطلب"
+    },
+    "quote_page": {
+      "title": "{{ar}}",
+      "sub_title": "{{ar}}",
+      "decision_value": "{{ar}}",
+      "rule": "{{ar}}",
+      "name": "الإســـــم",
+      "email": "البريد الإلكترونـــــى",
+      "phone": "رقم الهاتف",
+      "message": "الرسالة أو السيرة الذاتية",
+      "attach_file": "إختر الرسالة أو السيرة الذاتية",
+      "send_message_btn": "إرسال الطلب"
+    },
+    "career_page": {
+      "name": "{{ar}}",
+      "head_text": "{{ar}}",
+      "brief": {
+        "title": "{{ar}}",
+        "desc_one": "{{ar}}",
+        "desc_two": "{{ar}}"
+      },
+      "position": {
+        "name": "{{ar}}",
+        "title": "{{ar}}",
+        "sub_title": "{{ar}}",
+        "content": "{{ar}}"
+      },
+      "location": {
+        "title": "{{ar}}",
+        "description": "{{ar}}"
+      }
+    },
+    "interface_page": {
+      "buttons": "الأزرار",
+      "intro": {
+        "title": "{{ar}}"
+      },
+      "about": {
+        "name": "{{ar}}",
+        "text": "نبذه عنا"
+      },
+      "proof": {
+        "name": "{{ar}}",
+        "text": "إثبات"
+      },
+      "partner": {
+        "name": "{{ar}}",
+        "text": "الشريك"
+      },
+      "solutions": {
+        "name": "{{ar}}",
+        "text": "الحلول"
+      },
+      "news_room": {
+        "name": "{{ar}}",
+        "text": "غرفة الأخبار"
+      },
+      "footer": {
+        "text": "الجزء السفلى للحلول",
+        "logo_text_white": "نص اللوجو الأبيض",
+        "logo_text_colored": "نص اللوجو الملون",
+        "vertical_logo": "الصورة الرأسية",
+        "horizontal_logo": "الصورة الأفقية",
+        "logo_img": "اللوجو",
+        "map_text": "نص الخريطة",
+        "colored_text": "النص الملون",
+        "custom_text": "النص العادى",
+        "brief": "نبذه مختصره",
+        "btn_one_text": "نص الزر الأول",
+        "btn_two_text": "نص الزر الثانى"
+      }
+    }
+  },
+  "identifier_text_name": {
+    "marked_text": "النص الملون",
+    "field": "مجال التطور",
+    "progress": "رقم التقدم",
+    "name": "الإســـــم",
+    "country": "الدولة",
+    "continent": "القارة",
+    "services_control": "لوحة التحكم للخدمات",
+    "service_text": "نص الخدمة",
+    "solutions_control": "لوحة التحكم للحلول",
+    "solution_text": "نص الحل",
+    "header_text": "النص الرأسى",
+    "intro_text": "نص المقدمة",
+    "title_text": "نص العنوان",
+    "location": "الموثع",
+    "branches": "الفروع",
+    "address": "العنوان",
+    "question": "السؤال",
+    "answer": "الإجابة",
+    "rule_text": "النص القانونى",
+    "company_email": "إيميل الشركة",
+    "tel": "الهاتف",
+    "fax": "الفاكس",
+    "url": "لينك",
+    "job_title": "اللقب الوظيفى",
+    "bio": "نبذه مختصره",
+    "sub_title_text": "نص العنوان المصغر",
+    "footer_text": "النص الأخير",
+    "image_text": "نص الصورة",
+    "card_image": "صورة الكارت",
+    "view_image": "صورة العرض",
+    "image": "الصورة",
+    "video": "الفيديو",
+    "images": "الصور",
+    "head_image": "الصورة الإفتتاحية",
+    "footer_image": "الصورة الختامية",
+    "desc_title": "عنوان الوصف",
+    "tab_text": "نص التبويب",
+    "title": "العنوان",
+    "sub_title": "العنوان الفرعى",
+    "desc_one": "الوصف الأولى",
+    "desc_two": "الوصف الثانى",
+    "content": "المحتوى",
+    "description": "الوصف",
+    "cards": "الكروت",
+    "tabs": "التبويبات",
+    "head_images": "الصور الإفتتاحية",
+    "footer_images": "الصور الختامية",
+    "solutions": "الحلول",
+    "first_text": "النص الأول",
+    "middle_text": "النص الوسط",
+    "second_text": "النص الثانى",
+    "third_text": "النص الثالث",
+    "fourth_text": "النص الرابع",
+    "fifth_text": "النص الخامس",
+    "sixth_text": "النص السادس",
+    "seventh_text": "النص السابع",
+    "text": "النص",
+    "last_text": "النص الأخير",
+    "card_id": "الرقم السرى للكارت",
+    "tab_id": "الرقم السرى للتبويب"
+  },
+  "placeholder": {
+    "title": "إدخل العنوان باللغه الإنجليزية",
+    "title_ar": "إدخل العنوان باللغه العربية",
+    "description": "إدخل الوصف باللغه الإنجليزية",
+    "description_ar": "إدخل الوصف باللغه العربية",
+    "image_text": "إدخل نص الصورة باللغة الإنجليزية",
+    "image_text_ar": "إدخل نص الصورة باللغة العربية",
+    "card_id": "إدخل الرقم السرى للكارت",
+    "tab_id": "إدخل الرقم السرى للتبويب"
+  },
+  "create": {
+    "card": "إنشاء كارت",
+    "tab": "إنشاء تبويب",
+    "solution": "إنشاء حل"
+  },
+  "delete": {
+    "card_success": "تم حذف الكارت بنجاح",
+    "item_success": "تم حذف الموضوع بنجاح",
+    "delete_card_confirm": "هل أنت متأكد أنك تريد حذف هذا الكارت",
+    "delete_tab_confirm": "هل أنت متأكد أنك تريد حذف هذا التبويب",
+    "delete_solution_confirm": "هل أنت متأكد أنك تريد حذف هذا الحل",
+    "delete_blog_confirm": "هل أنت متأكد أنك تريد حذف هذه المدونة",
+    "delete_item_confirm": "هل أنت متأكد أنك تريد حذف هذه الموضوع",
+    "delete_answer_confirm": "هل أنت متأكد أنك تريد حذف هذه الإجابة",
+    "delete_mission_confirm": "هل أنت متأكد أنك تريد حذف هذه المهمة",
+    "delete_crew_confirm": "هل أنت متأكد أنك تريد حذف هذا العضو",
+    "delete_document_confirm": "هل أنت متأكد أنك تريد حذف هذا المستند",
+    "delete_decision_confirm": "هل أنت متأكد أنك تريد حذف هذا القرار",
+    "delete_news_room_confirm": "هل أنت متأكد أنك تريد حذف هذا الخبر",
+    "delete_q_a_confirm": "هل أنت متأكد أنك تريد حذف هذا السؤال والجواب",
+    "delete_brief_confirm": "هل أنت متأكد أنك تريد حذف هذه المقدمة",
+    "delete_position_confirm": "هل أنت متأكد أنك تريد حذف هذا المنصب",
+    "delete_product_confirm": "هل أنت متأكد أنك تريد حذف هذا المنتج",
+    "delete_partner_confirm": "هل أنت متأكد أنك تريد حذف هذا الشريك",
+    "delete_development_confirm": "هل أنت متأكد أنك تريد حذف هذا التطور",
+    "delete_proof_confirm": "هل أنت متأكد أنك تريد حذف هذا الإثبات",
+    "delete_link_confirm": "هل أنت متأكد أنك تريد حذف هذا اللينك"
+  },
+  "error": {
+    "title": "يجب إدخال العنوان",
+    "description": "يجب إدخال الوصف",
+    "image": "يجب إدخال الصورة",
+    "image_text": "يجب إدخال نص الصورة",
+    "card_image": "يجب إدخال صورة الكارت",
+    "view_image": "يجب إدخال صورة عرض الكارت",
+    "tab_id_error": "هذا ليس رقم ID صحيح",
+    "card_id_error": "هذا ليس رقم ID صحيح",
+    "tab_id": "يجب إدخال الرقم السرى للتبويب"
+  },
+  "authentication": {
+    "register": {
+      "first_title": "إنشاء",
+      "colored_title": "حساب",
+      "last_title": "خاص بك."
+    },
+    "login": "Welcome",
+    "form": {
+      "avatar": "الصورة الشخصية",
+      "name": {
+        "text": "الإســـــــم :",
+        "placeholder": "من فضلك أدخل إسمك كاملاَ"
+      },
+      "email": {
+        "text": "البريد الإلكترونـــــى :",
+        "placeholder": "من فضلك أدخل  بريدك الإلكترونى"
+      },
+      "password": {
+        "text": "كلمة المرور :",
+        "placeholder": "من فضلك أدخل  كلمة المرور"
+      },
+      "confirm_password": {
+        "text": "تأكيد كلمة المرور :",
+        "placeholder": "من فضلك أدخل  كلمة المرور مرة أخرى"
+      },
+      "register_btn": "إنشاء مستخدم",
+      "login_btn": "تسجيل الدخول",
+      "check": {
+        "text": "فحــــص"
+      },
+      "forgot_password": {
+        "text": "نسيت كلمة المرور",
+        "message": "من فضلك أفحص بريدك الإلكترونى لتغير بريدك الإلكترونى"
+      },
+      "reset_password": {
+        "text": "تغيير كلمة المرور",
+        "message": "تم تغيير كلمة المرور بنجاح"
+      }
+    },
+    "have_account": {
+      "register": "لدى حساب بالغعل",
+      "login": "ليس لدى حساب"
+    }
+  },
+  "our_it_solution": "حلولنا لتكنولوجيا المعلومات",
+  "save_btn": "حفظ",
+  "create_btn": "إنشاء",
+  "file_too_large": "يجب أن يكون الملف أصغر من 5 ميجا بايت",
+  "file_too_large_10mb": "يجب أن يكون الملف أصغر من 10 ميجا بايت",
+  "create_success": "تم الإنشاء بنجاح",
+  "update_success": "تم التحديث بنجاح",
+  "selected_value_error": "من فضلم قم بإختيار طلب",
+  "rule_error": "من فضلك قم بوضع موافقة على الشروط فى الأسفل",
+  "explore_btn": "إستكشف",
+  "about_hpt_btn": "عن هاى بوينت تكنولوجى",
+  "btn_name": "{{ar}}",
+  "work_text": "{{ar}}",
+  "map_text": "{{ar}}",
+  "progress_error": "{{ar}}",
+  "web_name_not_valid": "{{ar}}",
+  "signIn_btn": "{{ar}}",
+  "or_text": "أو",
+  "footer": {
+    "brief": "{{ar}}"
+  },
+  "updated_date": "أخر تحديث",
+  "policy": {
+    "title": "{{ar}}",
+    "description": "{{ar}}"
+  }
+}

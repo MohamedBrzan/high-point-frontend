@@ -1,0 +1,141 @@
+.why-high-point {
+  padding: 50px 0;
+  overflow: hidden;
+  color: white;
+  position: relative;
+  .container-fluid {
+    min-height: 100vh;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin: 2rem;
+    width: auto;
+    hr {
+      background: white;
+    }
+  }
+  .why-high-point-head-hr {
+    color: #764ed3;
+  }
+  .head_text {
+    span.number {
+      color: #fd2c2c;
+      font-size: 32px;
+    }
+    .title {
+      text-transform: uppercase;
+      color: white;
+      font: {
+        size: 32px;
+      }
+      span.proof_span_text {
+        opacity: 0.4;
+      }
+    }
+  }
+
+  .why-high-point-col-btn {
+    @media screen and (min-width: 768px) {
+      width: 100%;
+      text-align: right;
+      text-align: -webkit-right;
+    }
+  }
+  .why-high-point-text-col {
+    .text {
+      font-size: 14px;
+      color: white;
+    }
+  }
+  .why-high-point-wrapper {
+    margin-top: auto;
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+  .why-high-point-big-text-col {
+    text-align: left;
+    text-align: -webkit-left;
+    .title {
+      margin-bottom: 3em;
+      .title_text {
+        font-size: 1em;
+        text-transform: uppercase;
+        color: white;
+        margin-bottom: 20px;
+        margin: 0 0 0.3em;
+        span.title_span_text {
+          opacity: 0.4;
+        }
+      }
+    }
+  }
+
+  .proof_content_col {
+    position: relative;
+    .create_btn {
+      position: relative;
+    }
+
+    .proof {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 2em auto;
+      .icon {
+        width: 2em;
+        height: 2em;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 1005;
+        }
+        &::before {
+          content: '';
+          position: absolute;
+          width: 4em;
+          height: 4em;
+          border-radius: 50%;
+          background: #0a0254;
+          z-index: -1;
+        }
+      }
+    }
+
+    .text {
+      font-size: 0.8em;
+      margin: 0 2em;
+      padding: 0;
+      line-height: 1.6;
+    }
+    @media screen and (max-width: 768px) {
+      margin-bottom: 30px;
+    }
+    .actions_btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .edit_btn {
+        color: greenyellow;
+        margin: auto 0.5em;
+        cursor: pointer;
+      }
+      .delete_btn {
+        margin: auto 0.8em;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@keyframes changingSpansOpacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

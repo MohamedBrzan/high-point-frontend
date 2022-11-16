@@ -1,0 +1,43 @@
+.app-intro {
+  .main-intro-text {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    font-size: 4em;
+    @media screen and (max-width: 991px) {
+      font-size: 2em;
+    }
+  }
+  .change-btn-position {
+    position: absolute;
+    bottom: 3em;
+    background: #2b028d;
+    width: 200px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@keyframes bounceAlpha {
+  0% {
+    opacity: 1;
+    transform: translateX(0px) scale(1);
+  }
+  25% {
+    opacity: 0;
+    transform: translateX(10px) scale(0.9);
+  }
+  26% {
+    opacity: 0;
+    transform: translateX(-10px) scale(0.9);
+  }
+  55% {
+    opacity: 1;
+    transform: translateX(0px) scale(1);
+  }
+}

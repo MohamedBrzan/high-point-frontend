@@ -1,0 +1,97 @@
+
+
+.apply_form {
+  min-height: 100vh;
+  width: auto;
+  background: #0a0254;
+  color: white;
+  word-break: break-all;
+  padding: 0;
+  position: relative;
+  overflow-y: hidden;
+  .form_section {
+    padding: 3em;
+    margin: 2em auto;
+    width: 40vw;
+    @media screen and (max-width: 991px) {
+      width: auto;
+      margin: 1em;
+    }
+    background: #2b028d;
+    border-radius: 0.3em;
+    .title {
+      font: {
+        weight: 500;
+        size: 3em;
+      }
+      @media screen and (max-width: 991px) {
+        font: {
+          weight: 500;
+          size: 2em;
+        }
+      }
+    }
+    .sub_title {
+      display: flex;
+      align-items: center;
+      margin: 1em auto;
+      @media screen and (max-width: 991px) {
+        font: {
+          size: 0.8em;
+        }
+      }
+      .arrow_container {
+        width: 3em;
+        margin: 1em;
+        .arrow_img {
+          width: 100%;
+        }
+      }
+    }
+    .apply_job__form-control {
+      margin-bottom: 1em;
+      background: transparent;
+      border-color: blue;
+      border-width: 0.18em;
+      color: #696493;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+
+      &.file_input {
+        position: absolute;
+        top: 0rem;
+        padding: 1.6rem;
+        opacity: 0;
+      }
+    }
+    .file_style {
+      position: relative;
+      border: 0.1em dashed #ebebeb88;
+      padding: 0.5em;
+      text-align: center;
+      margin: 1em auto;
+      @media screen and (max-width: 991px) {
+        font: {
+          size: 0.8em;
+        }
+      }
+      .order_text {
+        color: red;
+      }
+      .file_rule {
+        @media screen and (max-width: 991px) {
+          margin-top: 0.5em;
+          font: {
+            size: 0.7em;
+          }
+        }
+      }
+    }
+    .apply_job__submit-btn {
+      background: transparent;
+      border: none !important;
+      outline: none !important;
+    }
+  }
+}

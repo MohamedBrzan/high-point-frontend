@@ -1,0 +1,19 @@
+.service_schema_form {
+  .head_label {
+    color: red;
+  }
+  color: white;
+}
+.modal-content {
+  background: #2b028d !important;
+  height: auto !important;
+}
+.modal-title {
+  @media screen and (min-width: 768px) {
+    font: {
+      weight: Bold;
+      size: 3em !important;
+    }
+  }
+  color: red;
+}

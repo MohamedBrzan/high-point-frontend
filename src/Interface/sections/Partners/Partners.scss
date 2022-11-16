@@ -1,0 +1,80 @@
+.partner_component {
+  overflow: hidden;
+  background: #2b028d;
+  color: #2b028d;
+  .container-fluid.intro-section {
+    min-height: 100vh;
+    margin: 2rem;
+    width: auto;
+    padding: 20px 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    background: white;
+    hr {
+      background: white;
+    }
+  }
+  .official_partners {
+    picture {
+      img {
+        width: 100%;
+      }
+    }
+    margin: 3em auto;
+  }
+  .partners-big-text-col {
+    .partner_title {
+      .text {
+        span.title_span_text {
+          opacity: 0.4;
+        }
+      }
+    }
+  }
+
+  .head_text {
+    span.number {
+      color: #fd2c2c;
+      font-size: 32px;
+      @media screen and (max-width: 768px) {
+        font: {
+          size: 22px;
+        }
+      }
+    }
+    .title {
+      text-transform: uppercase;
+      color: #2b028d;
+      font: {
+        size: 32px;
+      }
+      @media screen and (max-width: 768px) {
+        font: {
+          size: 22px;
+        }
+      }
+      span.partner_span_text {
+        opacity: 0.4;
+      }
+    }
+  }
+
+  .partners-col-btn {
+    @media screen and (min-width: 768px) {
+      width: 100%;
+      text-align: right;
+      text-align: -webkit-right;
+    }
+  }
+  .description {
+    span.description_span_text {
+      opacity: 0.4;
+    }
+  }
+  .partner-img {
+    width: 100%;
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+}

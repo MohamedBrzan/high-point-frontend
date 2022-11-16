@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/Alliance_No.2_Light.otf);
+}
+
+/* div {
+  font-family: myFirstFont;
+} */
+
+body {
+  margin: 0;
+  /* font-family: myFirstFont; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  background-color: #2b028d !important;
+}
+
+main {
+  min-height: 100vh;
+  flex: 1;
+}
+
+::selection {
+  background: #2b028d;
+  color: #e8412c;
+}
+
+::-webkit-scrollbar-track {
+  color: #e8412c;
+  background: #e8412c;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e8412c;
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2b028d;
+}

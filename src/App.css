@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+button.slick-arrow::before {
+  color: #2b028d;
+}
+
+canvas#nuclear {
+  height: 30vh;
+  width: 100%;
+}
+
+.delete_btn {
+  color: red;
+}
+.section-head-image {
+  background: url(images/section_head_background.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  width: 100vw;
+}

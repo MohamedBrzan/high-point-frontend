@@ -1,0 +1,233 @@
+.about {
+  min-height: 100vh;
+  width: auto;
+  background: white;
+  color: #2b028d;
+  word-break: break-all;
+  padding: 0;
+  position: relative;
+  overflow-y: hidden;
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 1em auto;
+    .edit_btn {
+      display: block;
+      cursor: pointer;
+      color: greenyellow;
+    }
+    .delete_btn {
+      display: block;
+      cursor: pointer;
+      color: red;
+    }
+  }
+  .create_btn {
+    width: 6em;
+    height: 6em;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+
+    z-index: 99;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    background-color: #000;
+    color: greenyellow;
+  }
+  .create_section_btn {
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    top: -5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+
+    z-index: 99;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    background-color: #000;
+    color: greenyellow;
+  }
+
+  .edit_btn {
+    position: absolute;
+    top: 0.4em;
+    font: {
+      weight: Bold;
+      size: 2em;
+    }
+    padding: 0 1em;
+    color: greenyellow;
+    cursor: pointer;
+  }
+  .delete_btn {
+    position: absolute;
+    top: 2.4em;
+    font: {
+      weight: Bold;
+      size: 2em;
+    }
+    padding: 0 1em;
+    color: red;
+    cursor: pointer;
+  }
+  .main__row {
+    margin: 0;
+    justify-content: center;
+    align-items: flex-start;
+    &.about {
+      background: #f8f8f8;
+    }
+    .anime_col {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: auto;
+    }
+    .about__container {
+      .about__row {
+        margin: 0;
+
+        .about__title {
+          font: {
+            weight: 500;
+            size: 4.6em;
+          }
+        }
+      }
+    }
+    .missions__container {
+      position: relative;
+      margin: 5rem 0;
+      .missions__row {
+        position: relative;
+        .missions_title {
+          color: red;
+          font: {
+            size: 2.6em;
+          }
+        }
+      }
+    }
+    .q_a__container {
+      margin: 5rem 0;
+      position: relative;
+
+      .answer {
+        position: relative;
+        margin: 3em auto;
+      }
+
+      .q_a__title {
+        font: {
+          size: 2.6em;
+        }
+      }
+      .q_a_arrow_img {
+        width: 2em;
+      }
+    }
+  }
+  .teams__container {
+    position: relative;
+    margin: auto 2em;
+    padding: 2em;
+    background: #f8f8f8;
+    .teams__row {
+      position: relative;
+      .image {
+        picture {
+          img {
+            border-radius: 0.5em;
+          }
+        }
+      }
+    }
+  }
+  .about_footer {
+    position: relative;
+    margin: 25em auto;
+    picture {
+      img {
+        width: 100%;
+      }
+    }
+    .about_footer_text {
+      background: #0a0254;
+      padding: 1em 2em;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+      height: auto;
+      border-radius: 0.1em;
+
+      .footer_text_word {
+        margin: 0 0 0 1em;
+        span.footer_span_text {
+          opacity: 0;
+          color: #f8f8f8;
+        }
+        font: {
+          weight: 500;
+          size: 4em;
+        }
+        @media screen and (max-width: 768px) {
+          padding: 0;
+          font: {
+            weight: 500;
+            size: 1em;
+          }
+        }
+        @media (min-width: 769px) and (max-width: 992px) {
+          padding: 0;
+          font: {
+            weight: 500;
+            size: 2em;
+          }
+        }
+        @media (min-width: 993px) and (max-width: 1200px) {
+          padding: 0;
+          font: {
+            weight: 500;
+            size: 2.5em;
+          }
+        }
+        @media (min-width: 1201px) and (max-width: 1400px) {
+          padding: 0;
+          font: {
+            weight: 500;
+            size: 3.5em;
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 768px) {
+      margin: 3em auto;
+    }
+    @media (min-width: 769px) and (max-width: 992px) {
+      margin: 10em auto;
+    }
+  }
+}
+
+@keyframes headSpanChangOpacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

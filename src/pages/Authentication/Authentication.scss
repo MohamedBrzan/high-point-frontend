@@ -1,0 +1,109 @@
+.authentication {
+  min-height: 100vh;
+  width: 100vw;
+  background: white;
+  word-break: break-all;
+  .section-head-image {
+    background: url(../../images/section_head_background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    width: 100vw;
+  }
+
+  .auth_content_row {
+    justify-content: space-between;
+
+    .text_col {
+      padding: 3em;
+      .logo {
+        .auth_logo_img {
+          width: 10em;
+        }
+      }
+      .avatar_container {
+        width: 10em;
+        height: 10em;
+        border-radius: 50%;
+        margin: auto;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        #uploadAvatarImage {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          padding: 6em;
+          opacity: 0;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .head_text {
+        color: #2b028d;
+        font: {
+          size: 5em;
+        }
+        .login_title {
+          color: #c20;
+        }
+        @media (max-width: 768px) {
+          text-align: center;
+          font: {
+            size: 4em;
+          }
+        }
+        @media (min-width: 769px) and (max-width: 991px) {
+          font: {
+            size: 3em;
+          }
+        }
+
+        @media (min-width: 992px) and (max-width: 1300px) {
+          font: {
+            size: 4em;
+          }
+        }
+
+        @media (min-width: 1301px) {
+          font: {
+            size: 5em;
+          }
+        }
+
+        .colored_title {
+          padding-right: 0.4em;
+          color: #c20;
+        }
+      }
+    }
+
+    .auth_img_col {
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+
+    .auth_img {
+      height: 100vh;
+      width: 100%;
+    }
+    .auth_submit_btn {
+      width: 100%;
+      background: #2b028d;
+    }
+    .have_account_link {
+      display: block;
+      margin: 1em auto;
+    }
+  }
+}

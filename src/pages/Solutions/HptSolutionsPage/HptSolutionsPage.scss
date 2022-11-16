@@ -1,0 +1,315 @@
+.hpt-solutions-page {
+  min-height: 100vh;
+  width: 100vw;
+  background: #2b028d;
+  color: white;
+  word-break: break-all;
+
+  .item_edit_btn,
+  .item_create_tab_btn,
+  .item_delete_card_btn {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+
+    z-index: 99;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    cursor: pointer;
+    background-color: #000;
+    color: greenyellow;
+  }
+
+  .section_edit_btn,
+  .section_create_btn {
+    padding: 1em;
+    margin: 1em;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: greenyellow;
+    color: #000;
+    cursor: pointer;
+  }
+
+  .item_edit_btn {
+    position: absolute;
+    top: 1em;
+  }
+
+  .item_create_tab_btn {
+    position: absolute;
+    top: 4em;
+  }
+
+  .item_delete_card_btn {
+    position: absolute;
+    top: 7em;
+    color: #c33;
+  }
+
+  .section_edit_btn {
+    position: fixed;
+    bottom: 20px;
+    z-index: 999;
+  }
+
+  .section_create_btn {
+    position: absolute;
+    top: -10em;
+    z-index: 99;
+  }
+  .solution_row {
+    margin: auto;
+    background: #0a0254;
+    .solution_text {
+      padding: 3em 5em 10em;
+      .header_text {
+        // text-indent: 4em;
+        line-height: 0.8;
+        font: {
+          weight: 500;
+          size: 4em;
+        }
+        margin: 0 0 30px;
+        @media screen and (max-width: 768px) {
+          text-indent: 0;
+          line-height: 0.8;
+          font: {
+            weight: 500;
+            size: 1.3em;
+          }
+        }
+        @media (min-width: 769px) and (max-width: 992px) {
+          text-indent: 0;
+          line-height: 0.8;
+          font: {
+            weight: 500;
+            size: 2em;
+          }
+        }
+        @media (min-width: 993px) and (max-width: 1200px) {
+          text-indent: 0;
+          line-height: 0.8;
+          font: {
+            weight: 500;
+            size: 3em;
+          }
+        }
+        span.head_span_text {
+          opacity: 0.4;
+        }
+      }
+      .intro_text {
+        span.intro_span_text {
+          font-size: 3em;
+          text-transform: uppercase;
+          background: #ff1111;
+          background: linear-gradient(to top, #ff1111 0%, #1900ff 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          font-weight: Bold;
+          opacity: 0.4;
+        }
+        @media screen and (max-width: 768px) {
+          padding: 0 6em 0 0;
+          font: {
+            weight: 500;
+            size: 1.3em;
+          }
+        }
+        @media (min-width: 769px) and (max-width: 992px) {
+          padding: 0;
+          font: {
+            weight: 500;
+            size: 1.3em;
+          }
+        }
+        @media (min-width: 993px) and (max-width: 1200px) {
+          padding: 0 6em 0 0;
+          font: {
+            weight: 500;
+            size: 1.3em;
+          }
+        }
+      }
+    }
+    .solution_img {
+      padding: 2em;
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.8em;
+      }
+      @media screen and (max-width: 768px) {
+        // order: -1;
+        // padding: 1em;
+        display: none;
+      }
+    }
+  }
+  .content_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .solution_title_container {
+      .solution_title {
+        font: {
+          weight: 500;
+          size: 3em;
+        }
+      }
+    }
+    span.title_span_text {
+      opacity: 0.4;
+    }
+  }
+  .title_arrow {
+    display: flex;
+    // justify-content: flex-start;
+    align-items: center;
+    .arrow {
+      width: 20%;
+      margin: 0 0.5em 0 0;
+    }
+    .solution_sub_title {
+      width: 100%;
+      div {
+        width: 100%;
+        font-size: 0.9em;
+      }
+      span.sub_title_span_text {
+        opacity: 0.4;
+      }
+    }
+  }
+  .cards {
+    margin: 15em 0.5em;
+    position: relative;
+    .card-body {
+      cursor: pointer;
+    }
+
+    .card_img_control {
+      width: 100%;
+      height: 300px;
+      object-fit: fill;
+    }
+    .card-col {
+      position: relative;
+      .card_container {
+        position: relative;
+        background: #0a0254;
+        margin-bottom: 2em;
+        height: 350px;
+        .copy_text {
+          position: absolute;
+          right: 0;
+          background: skyblue;
+          padding: 0.3em;
+          border-top-right-radius: 0.1em;
+        }
+
+        span.card_title_span_text {
+          opacity: 0.4;
+        }
+      }
+      .actions_btn_row {
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 1em;
+        position: absolute;
+        top: 1em;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+        .action_btn {
+          text-align: center;
+          display: none;
+          &.delete_btn {
+            color: #c33;
+          }
+          &.edit_btn {
+            color: #fd2c;
+          }
+          cursor: pointer;
+        }
+      }
+      &:hover {
+        .action_btn {
+          display: flex;
+        }
+      }
+    }
+  }
+  .solution_footer {
+    position: relative;
+    margin: 25em auto;
+    picture {
+      img {
+        width: 100%;
+      }
+    }
+    .solution_footer_text {
+      background: #0a0254;
+      padding: 1em 2em;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+      height: auto;
+      border-radius: 0.1em;
+      span.footer_span_text {
+        opacity: 0.4;
+      }
+      .footer_text_word {
+        margin: 0 0 0 1em;
+        font: {
+          weight: 500;
+          size: 4em;
+        }
+        @media screen and (max-width: 768px) {
+          padding: 0;
+          font: {
+            weight: 500;
+            size: 1em;
+          }
+        }
+        @media (min-width: 769px) and (max-width: 992px) {
+          padding: 0;
+          font: {
+            weight: 500;
+            size: 2em;
+          }
+        }
+        @media (min-width: 993px) and (max-width: 1200px) {
+          padding: 0;
+          font: {
+            weight: 500;
+            size: 2.5em;
+          }
+        }
+        @media (min-width: 1201px) and (max-width: 1400px) {
+          padding: 0;
+          font: {
+            weight: 500;
+            size: 3.5em;
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 768px) {
+      margin: 3em auto;
+    }
+    @media (min-width: 769px) and (max-width: 992px) {
+      margin: 10em auto;
+    }
+  }
+}
