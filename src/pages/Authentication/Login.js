@@ -112,9 +112,9 @@ const LoginPage = () => {
               </Button>
               <p className='text-center my-3'>{t('or_text')}</p>
 
-              <GoogleLoginButton
+              {/* <GoogleLoginButton
               // googleLogin={googleLogin}
-              />
+              /> */}
 
               <Row>
                 {' '}
