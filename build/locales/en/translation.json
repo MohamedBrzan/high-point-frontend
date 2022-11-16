@@ -1,0 +1,385 @@
+{
+  "header": {
+    "home": "Home",
+    "services": "Services",
+    "solutions": "Solutions",
+    "products": "Products",
+    "contact_us": "Contact Us",
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register"
+  },
+  "hpt_page": {
+    "header_text": {
+      "first_text": "{{en}}",
+      "second_text": "{{en}}",
+      "third_text": "{{en}}",
+      "fourth_text": "{{en}}",
+      "fifth_text": "{{en}}",
+      "sixth_text": "{{en}}",
+      "seventh_text": "{{en}}"
+    },
+    "intro_text": "{{en}}",
+    "title": {
+      "first_text": "{{en}}",
+      "last_text": "{{en}}"
+    },
+    "sub_title": {
+      "first_text": "{{en}}",
+      "last_text": "{{en}}"
+    },
+    "card": {
+      "title": "{{en}}",
+      "description": "{{en}}",
+      "delete_btn": "{{en}}",
+      "edit_btn": "{{en}}",
+      "tab": {
+        "title": "{{en}}",
+        "solution": {
+          "title": "{{en}}",
+          "description": "{{en}}"
+        }
+      }
+    },
+    "blogs_page": {
+      "title": "Blogs",
+      "blog": {
+        "title": "{{en}}"
+      }
+    },
+    "view_blog_page": {
+      "title": "Blog",
+      "blog": {
+        "title": "{{en}}",
+        "sub_description": "{{en}}",
+        "description": "{{en}}"
+      }
+    },
+    "news_room_page": {
+      "title": "NewsRoom",
+      "news": {
+        "title": "{{en}}"
+      }
+    },
+    "view_news_room_page": {
+      "title": "NewsRoom",
+      "news": {
+        "title": "{{en}}",
+        "sub_description": "{{en}}",
+        "description": "{{en}}"
+      }
+    },
+    "partners_page": {
+      "title": "Find a local partner."
+    },
+    "documentation_page": {
+      "title": "Documentation"
+    },
+    "contact_us_page": {
+      "title": "Get in touch with us.",
+      "name": "NAME",
+      "email": "EMAIL",
+      "phone_or_whats_app": "PHONE OR WHATSAPP NUMBER",
+      "company": "COMPANY",
+      "country": "COUNTRY",
+      "number_of_network": "NUMBER OF NETWORK USERS",
+      "network_traffic": "NETWORK TRAFFIC AT PEAK HOUR",
+      "network_type": "Network Type",
+      "message": "tell us about your needs",
+      "send_message_btn": "SEND MESSAGE",
+      "head_office": "Head Office",
+      "work_inquiries": "Work Inquiries",
+      "other_branches": "Other Branches",
+      "phone": "Phone",
+      "tel": "Tel",
+      "fax": "Fax",
+      "info": "{{en}}"
+    },
+    "product_page": {
+      "title": "{{en}}",
+      "sub_title": "{{en}}",
+      "desc_text": "{{en}}",
+      "header_text": "{{en}}",
+      "download_btn": "{{en}}",
+      "footer_text": "{{en}}",
+      "item": {
+        "title": "{{en}}",
+        "description": "{{en}}"
+      }
+    },
+    "about_page": {
+      "title": "{{en}}",
+      "sub_title": "{{en}}",
+      "description": "{{en}}"
+    },
+    "footer_text": {
+      "first_text": "{{en}}",
+      "last_text": "{{en}}"
+    },
+    "apply_job_page": {
+      "title": "{{en}}",
+      "sub_title": "{{en}}",
+      "rule": "{{en}}",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message Or CV",
+      "attach_file": "Attach your CV",
+      "file_rule": "file extensions : doc, docx, pdf, rtf (up to 10 mb)",
+      "send_message_btn": "Submit"
+    },
+    "quote_page": {
+      "title": "{{en}}",
+      "sub_title": "{{en}}",
+      "decision_value": "{{en}}",
+      "rule": "{{en}}",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "message": "Message Or CV",
+      "attach_file": "Attach your CV",
+      "send_message_btn": "Submit"
+    },
+    "career_page": {
+      "name": "{{en}}",
+      "head_text": "{{en}}",
+      "brief": {
+        "title": "{{en}}",
+        "desc_one": "{{en}}",
+        "desc_two": "{{en}}"
+      },
+      "position": {
+        "name": "{{en}}",
+        "title": "{{en}}",
+        "sub_title": "{{en}}",
+        "content": "{{en}}"
+      },
+      "location": {
+        "title": "{{en}}",
+        "description": "{{en}}"
+      }
+    },
+    "interface_page": {
+      "buttons": "Buttons",
+      "intro": {
+        "title": "{{en}}"
+      },
+      "about": {
+        "name": "{{en}}",
+        "text": "About"
+      },
+      "proof": {
+        "name": "{{en}}",
+        "text": "Proof"
+      },
+      "partner": {
+        "name": "{{en}}",
+        "text": "Partner"
+      },
+      "solutions": {
+        "name": "{{en}}",
+        "text": "Solutions"
+      },
+      "news_room": {
+        "name": "{{en}}",
+        "text": "News Room"
+      },
+      "footer": {
+        "text": "Solutions Footer",
+        "logo_text_white": "Logo Text White",
+        "logo_text_colored": "Logo Text Colored",
+        "vertical_logo": "Vertical Logo",
+        "horizontal_logo": "horizontal Logo",
+        "logo_img": "Logo Image",
+        "map_text": "Map Text",
+        "colored_text": "Colored Text",
+        "custom_text": "Custom Text",
+        "brief": "Brief",
+        "btn_one_text": "Button One Text",
+        "btn_two_text": "Button Two Text"
+      }
+    }
+  },
+  "identifier_text_name": {
+    "field": "Development Field",
+    "progress": "Number Of Progress",
+    "marked_text": "Colored Text",
+    "name": "Name",
+    "country": "Country",
+    "continent": "Continent",
+    "services_control": "Services Control",
+    "service_text": "Service Text",
+    "solutions_control": "Solutions Control",
+    "solution_text": "Solution Text",
+    "header_text": "Header Text",
+    "intro_text": "Intro Text",
+    "title_text": "Title Text",
+    "location": "Location",
+    "branches": "Branches",
+    "address": "Address",
+    "question": "Question",
+    "answer": "Answer",
+    "rule_text": "Rule Text",
+    "company_email": "Company Email",
+    "tel": "Tel",
+    "fax": "Fax",
+    "url": "URL",
+    "job_title": "Job Title",
+    "bio": "Bio",
+    "sub_title_text": "Sub Title Text",
+    "footer_text": "Footer Text",
+    "image_text": "Image Text",
+    "card_image": "Card Image",
+    "view_image": "View Image",
+    "image": "Image",
+    "video": "Video",
+    "images": "Images",
+    "head_image": "Head Image",
+    "footer_image": "Footer Image",
+    "desc_title": "Description Title",
+    "tab_text": "Tab Text",
+    "title": "Title",
+    "sub_title": "Sub Title",
+    "desc_one": "Desc One",
+    "desc_two": "Desc Two",
+    "content": "Content",
+    "description": "Description",
+    "cards": "Cards",
+    "tabs": "Tabs",
+    "head_images": "Head Images",
+    "footer_images": "Footer Images",
+    "solutions": "Solutions",
+    "first_text": "First Text",
+    "middle_text": "Middle Text",
+    "second_text": "Second Text",
+    "third_text": "Third Text",
+    "fourth_text": "Fourth Text",
+    "fifth_text": "Fifth Text",
+    "sixth_text": "Sixth Text",
+    "seventh_text": "Seventh Text",
+    "text": "Text",
+    "last_text": "Last Text",
+    "card_id": "Card Id",
+    "tab_id": "Tab Id"
+  },
+  "placeholder": {
+    "title": "Enter English Title",
+    "title_ar": "Enter Arabic Title",
+    "description": "Enter English Description",
+    "description_ar": "Enter Arabic Description",
+    "image_text": "Enter English Image Text",
+    "image_text_ar": "Enter Arabic Image Text",
+    "card_id": "Enter Card Id",
+    "tab_id": "Enter Tab Id"
+  },
+  "create": {
+    "card": "Create Card",
+    "tab": "Create Tab",
+    "solution": "Create Solution"
+  },
+  "delete": {
+    "card_success": "Card Deleted Successfully",
+    "item_success": "Item Deleted Successfully",
+    "delete_card_confirm": "Are You Sure You Want Delete This Card",
+    "delete_tab_confirm": "Are You Sure You Want Delete This Tab",
+    "delete_solution_confirm": "Are You Sure You Want Delete This Solution",
+    "delete_blog_confirm": "Are You Sure You Want Delete This Blog",
+    "delete_item_confirm": "Are You Sure You Want Delete This Item",
+    "delete_answer_confirm": "Are You Sure You Want Delete This Answer",
+    "delete_mission_confirm": "Are You Sure You Want Delete This Mission",
+    "delete_crew_confirm": "Are You Sure You Want Delete This Member",
+    "delete_document_confirm": "Are You Sure You Want Delete This Document",
+    "delete_decision_confirm": "Are You Sure You Want Delete This Decision",
+    "delete_news_room_confirm": "Are You Sure You Want Delete This News",
+    "delete_q_a_confirm": "Are You Sure You Want Delete This QA",
+    "delete_brief_confirm": "Are You Sure You Want Delete This Brief",
+    "delete_position_confirm": "Are You Sure You Want Delete This Position",
+    "delete_product_confirm": "Are You Sure You Want Delete This Product",
+    "delete_partner_confirm": "Are You Sure You Want Delete This Partner",
+    "delete_development_confirm": "Are You Sure You Want Delete This Development",
+    "delete_proof_confirm": "Are You Sure You Want Delete This Proof",
+    "delete_link_confirm": "Are You Sure You Want Delete This Link"
+  },
+  "error": {
+    "title": "Title Is Required",
+    "description": "Description Is Required",
+    "image": "Image Is Required",
+    "image_text": "Image Text Is Required",
+    "card_image": "Card Image Is Required",
+    "view_image": "View Image Is Required",
+    "tab_id_error": "This Is Not Valid Tab Id",
+    "card_id_error": "This Is Not Valid Card Id",
+    "tab_id": "Tab Id Is Required"
+  },
+  "authentication": {
+    "register": {
+      "first_title": "Create an",
+      "colored_title": "Account",
+      "last_title": "You."
+    },
+    "login": "Welcome",
+    "form": {
+      "avatar": "Avatar",
+      "name": {
+        "text": "Name :",
+        "placeholder": "Please Enter Your Name"
+      },
+      "email": {
+        "text": "E-Mail :",
+        "placeholder": "Please Enter Your E-Mail"
+      },
+      "password": {
+        "text": "Password :",
+        "placeholder": "Please Enter Your Password"
+      },
+      "confirm_password": {
+        "text": "Confirm Password :",
+        "placeholder": "Please Enter Confirming Password"
+      },
+      "register_btn": "Sign Up",
+      "login_btn": "Login",
+      "check": {
+        "text": "Check"
+      },
+      "forgot_password": {
+        "text": "Forgot Your Password",
+        "message": "Please Check Your E-mail Address"
+      },
+      "reset_password": {
+        "text": "Reset Your Password",
+        "message": "Password Reset Successfully"
+      }
+    },
+    "have_account": {
+      "register": "Already Have an Account",
+      "login": "Not Have an Account"
+    },
+    "forgot_password": "Forgot Password ?"
+  },
+  "our_it_solution": "Our It Solution",
+  "save_btn": "save",
+  "create_btn": "Create",
+  "file_too_large": "file should be less than 5MB",
+  "file_too_large_10mb": "file should be less than Or Equal 10MB",
+  "create_success": "Created successfully",
+  "update_success": "Updated successfully",
+  "selected_value_error": "Please Select a Request Value",
+  "rule_error": "Please Check The Rule Btn",
+  "explore_btn": "Explore",
+  "about_hpt_btn": "About HTP",
+  "btn_name": "{{en}}",
+  "work_text": "{{en}}",
+  "map_text": "{{en}}",
+  "progress_error": "{{en}}",
+  "web_name_not_valid": "{{en}}",
+  "signIn_btn": "{{en}}",
+  "or_text": "Or",
+  "footer": {
+    "brief": "{{en}}"
+  },
+  "updated_date": "Updated",
+  "policy": {
+    "title": "{{en}}",
+    "description": "{{en}}"
+  }
+}
